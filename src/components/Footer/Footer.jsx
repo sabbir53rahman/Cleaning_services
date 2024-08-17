@@ -45,10 +45,10 @@ function Footer() {
               <h3 className="font-semibold text-[24px] pb-[10px] leading-[50px]">
                 Useful Links
               </h3>
-              <Link to="/home">
+              <Link to="/">
                 <p className="text-[18px] leading-[50px]">Home</p>
               </Link>
-              <Link to="/about-us">
+              <Link to="/about">
                 <p className="text-[18px] leading-[50px]">About Us</p>
               </Link>
               <Link to="/services">
