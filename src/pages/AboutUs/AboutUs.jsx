@@ -1,4 +1,6 @@
 import React from "react";
+import Button from "../../components/Button/Button";
+import AboutImg3 from "../../assets/aboutUs3.png";
 
 function AboutUs() {
   return (
@@ -41,6 +43,7 @@ function AboutUs() {
         </div>
       </div>
 
+      {/* about ceo section */}
       <div className="max-w-[970px] md:mx-[20px] mx-[10px] lg:mx-auto p-[45px] mb-[160px] bg-[#DBECFF] border border-[#939393] rounded-[20px] flex">
         <div className="max-w-[680px]">
           <h3 className="font-secondary font-bold text-[32px] leading-[50px] pb-[10px]">
@@ -75,6 +78,34 @@ function AboutUs() {
             Emmanuel Azubuike Nwaka
           </h3>
           <p className="text-[14px] font-medium">CEO</p>
+        </div>
+      </div>
+
+      {/* contact us section */}
+
+      <div className="my_container flex flex-col lg:flex-row pb-[160px] gap-[20px]">
+        <div className="w-full lg:max-w-[575px] bg-[#FFE9CA] border border-[#939393] rounded-[40px] flex items-center justify-center">
+          <h3 className="font-secondary font-bold text-[38px] leading-[60px] text-center p-[55px]">
+            Professional & expert cleaning service deep clean or post
+            construction cleaning
+          </h3>
+        </div>
+
+        <div className="w-full lg:max-w-[575px] bg-[#DBECFF] border border-[#939393] rounded-[40px] flex items-end">
+          <div className="lg:max-w-[355px] flex flex-col pl-[42px] py-[42px]">
+            <h3 className="font-secondary font-bold text-[50px] leading-[60px] pb-[25px] text-left">
+              We’re committed to caring
+            </h3>
+            <Button label="Contact Us" className="self-start" />
+          </div>
+
+          <div>
+            <img
+              src={AboutImg3}
+              className="w-full"
+              alt="We’re committed to caring"
+            />
+          </div>
         </div>
       </div>
     </>
