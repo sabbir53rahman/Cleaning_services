@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../../components/Button/Button";
+import AboutImg1 from "../../assets/aboutUs1.png";
 import AboutImg3 from "../../assets/aboutUs3.png";
 import Banner from "../../components/Banner/Banner";
 
@@ -49,43 +50,47 @@ function AboutUs() {
       </div>
 
       {/* about ceo section */}
-      <div className="max-w-[970px] md:mx-[20px] mx-[10px] lg:mx-auto p-[45px] mb-[160px] bg-[#DBECFF] border border-[#939393] rounded-[20px] flex">
-        <div className="max-w-[680px]">
-          <h3 className="font-secondary font-bold text-[32px] leading-[50px] pb-[10px]">
-            About CEO
-          </h3>
-          <p className="text text-[#464646]">
-            Emmanuel Azubuike Nwaka, the visionary behind CLEAN MY SPACE LTD ,
-            is an ambitious entrepreneur with a passion for transforming
-            environments through meticulous cleaning. Hailing from Kwale, Delta
-            State, Emmanuel’s journey has taken him from his roots in the
-            vibrant Delta region to the bustling city of Abuja, FCT, where he
-            currently resides.
-            <br />
-            Emmanuel’s deep-seated love for cleaning, which began as a personal
-            hobby, evolved into a driving force behind the establishment of
-            CLEAN MY SPACE LTD. His dedication to creating clean and healthy
-            spaces reflects his broader commitment to fostering eco-friendly
-            practices and enhancing community well-being.
-            <br />
-            Under Emmanuel’s leadership, CLEAN MY SPACE LTD embodies a blend of
-            passion, professionalism, and environmental consciousness. His
-            ambitious vision and entrepreneurial spirit are the cornerstones of
-            our company’s mission to deliver outstanding cleaning services that
-            are both effective and sustainable.
-            <br />
-            <br />
-            With a keen eye for detail and a relentless drive for excellence,
-            Emmanuel continues to steer Clean My Space Ltd towards new heights,
-            ensuring that every space we touch is left spotless and contributes
-            positively to a cleaner, greener future.
-          </p>
-          <h3 className=" font-semibold pt-[20px] text-[24px] leading-[38px]">
-            Emmanuel Azubuike Nwaka
-          </h3>
-          <p className="text-[14px] font-medium">CEO</p>
-        </div>
-      </div>
+      <div className="max-w-[970px] md:mx-[20px] mx-[10px] lg:mx-auto pt-[45px] pl-[45px] mb-[160px] bg-[#DBECFF] border border-[#939393] rounded-[20px] flex flex-col lg:flex-row lg:items-end">
+  <div className="max-w-[680px]">
+    <h3 className="font-secondary font-bold text-[32px] leading-[50px] pb-[10px]">
+      About CEO
+    </h3>
+    <p className="text text-[#464646] pr-[20px] lg:pr-0">
+      Emmanuel Azubuike Nwaka, the visionary behind CLEAN MY SPACE LTD,
+      is an ambitious entrepreneur with a passion for transforming
+      environments through meticulous cleaning. Hailing from Kwale, Delta
+      State, Emmanuel’s journey has taken him from his roots in the
+      vibrant Delta region to the bustling city of Abuja, FCT, where he
+      currently resides.
+      <br />
+      Emmanuel’s deep-seated love for cleaning, which began as a personal
+      hobby, evolved into a driving force behind the establishment of
+      CLEAN MY SPACE LTD. His dedication to creating clean and healthy
+      spaces reflects his broader commitment to fostering eco-friendly
+      practices and enhancing community well-being.
+      <br />
+      Under Emmanuel’s leadership, CLEAN MY SPACE LTD embodies a blend of
+      passion, professionalism, and environmental consciousness. His
+      ambitious vision and entrepreneurial spirit are the cornerstones of
+      our company’s mission to deliver outstanding cleaning services that
+      are both effective and sustainable.
+      <br />
+      <br />
+      With a keen eye for detail and a relentless drive for excellence,
+      Emmanuel continues to steer Clean My Space Ltd towards new heights,
+      ensuring that every space we touch is left spotless and contributes
+      positively to a cleaner, greener future.
+    </p>
+    <h3 className="font-semibold pt-[20px]  text-[24px] leading-[38px]">
+      Emmanuel Azubuike Nwaka
+    </h3>
+    <p className="text-[14px] pb-[45px] font-medium">CEO</p>
+  </div>
+  <div className="flex items-end">
+    <img src={AboutImg1} className=" lg:w-full w-[50%]  " alt="CEO Emmanuel Azubuike Nwaka" />
+  </div>
+</div>
+
 
       {/* contact us section */}
 
