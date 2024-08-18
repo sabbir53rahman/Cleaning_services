@@ -13,7 +13,7 @@
     @apply max-w-[1170px] md:mx-[20px] mx-[10px] lg:mx-auto px-[5px];
   }
   .text{
-    @apply text-[18px] leading-[30px]
+    @apply text-[18px] leading-[30px] text-[#464646]
   }
   .heading_2{
     @apply text-[64px] font-secondary font-bold leading-[76px]
