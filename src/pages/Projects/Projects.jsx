@@ -44,6 +44,8 @@ function Projects() {
         </div>
       </div>
 
+
+
       <div className="my_container flex gap-[50px] pb-[160px]">
         <div className="lg:max-w-[535px] w-full">
           <p className="border border-black inline text py-[10px] px-[20px] rounded-[20px] text-center">

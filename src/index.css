@@ -24,4 +24,7 @@
   .paragraph{
     @apply text-[#464646]
   }
+  .main_heading{
+    @apply font-extrabold font-secondary text-[70px] md:text-[90px] lg:text-[120px] leading-[90px] md:leading-[110px] lg:leading-[140px] text-center
+  }
 }
