@@ -7,7 +7,7 @@ function Banner({ heading }) {
       className="w-full h-[50vh] bg-cover bg-center flex items-center justify-center"
       style={{ backgroundImage: `url(${banner})` }}
     >
-      <h1 className="font-extrabold font-secondary text-[120px] leading-[140px] text-center">
+      <h1 className="font-extrabold font-secondary text-[70px] md:text-[90px] lg:text-[120px]  leading-[140px] text-center">
         {heading}
       </h1>
     </div>
