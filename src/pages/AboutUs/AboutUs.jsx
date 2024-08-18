@@ -1,10 +1,15 @@
 import React from "react";
 import Button from "../../components/Button/Button";
 import AboutImg3 from "../../assets/aboutUs3.png";
+import Banner from "../../components/Banner/Banner";
 
 function AboutUs() {
   return (
     <>
+      {/* Banner */}
+
+      <Banner heading="About Us" />
+
       {/* welcome section */}
       <div className="my_container flex flex-col lg:flex-row pt-[90px] pb-[160px] gap-[20px]">
         <div className=" lg:max-w-[377px]">
@@ -68,6 +73,7 @@ function AboutUs() {
             ambitious vision and entrepreneurial spirit are the cornerstones of
             our company’s mission to deliver outstanding cleaning services that
             are both effective and sustainable.
+            <br />
             <br />
             With a keen eye for detail and a relentless drive for excellence,
             Emmanuel continues to steer Clean My Space Ltd towards new heights,
