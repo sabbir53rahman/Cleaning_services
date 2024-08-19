@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import Logo from "../../assets/Logo.png";
-import { FiPhoneCall, FiMenu, FiX } from "react-icons/fi";
+import { FiPhoneCall, FiX } from "react-icons/fi";
+import { HiMenuAlt1 } from "react-icons/hi";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -59,7 +60,7 @@ function Header() {
         {/* Hamburger Menu Icon */}
         <div className="xl:hidden flex items-center">
           <button onClick={toggleMenu} className="text-2xl">
-            {isMenuOpen ? <FiX /> : <FiMenu />}
+            {isMenuOpen ? <FiX /> : <HiMenuAlt1 />}
           </button>
         </div>
       </div>
