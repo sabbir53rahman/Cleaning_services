@@ -32,13 +32,15 @@ function HomeBanner() {
                 </p>
               </div>
               <div className="pl-[25px]">
-                <input
-                  type="text"
-                  placeholder="Write here"
-                  className="w-full bg-[#FAFAFA] border-b border-[#D9D9D9]"
-                />
+                <select className="w-full outline-none focus:outline-none bg-[#FAFAFA] border-b border-[#D9D9D9] py-[8px] text-[16px]">
+                  <option value="" disabled selected>
+                    Write here
+                  </option>
+                  <option value="Abuja, Nigeria">Abuja, Nigeria</option>
+                </select>
               </div>
             </div>
+
             <div className="w-full">
               <div className="flex gap-[10px] items-center">
                 <BiCategory className="text-[18px]" />
@@ -47,13 +49,26 @@ function HomeBanner() {
                 </p>
               </div>
               <div className="pl-[25px]">
-                <input
-                  type="text"
-                  placeholder="Write here"
-                  className="w-full bg-[#FAFAFA] border-b border-[#D9D9D9]"
-                />
+                <select className="w-full outline-none focus:outline-none bg-[#FAFAFA] border-b  border-[#D9D9D9] py-[8px] text-[16px]">
+                  <option className="" value="" disabled selected>
+                    Write here
+                  </option>
+                  <option value="House Cleaning">House Cleaning</option>
+                  <option value="Oven Cleaning">Oven Cleaning</option>
+                  <option value="Commercial Cleaning">
+                    Commercial Cleaning
+                  </option>
+                  <option value="Construction Cleaning">
+                    Construction Cleaning
+                  </option>
+                  <option value="Office Cleaning">Office Cleaning</option>
+                  <option value="Residential Cleaning">
+                    Residential Cleaning
+                  </option>
+                </select>
               </div>
             </div>
+
             <div className="p-[20px] bg-[#0073AC] text-white inline-flex items-center justify-center rounded-[14px]">
               <FiPhone className="text-[18px]" />
             </div>
