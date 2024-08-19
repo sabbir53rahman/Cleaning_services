@@ -30,4 +30,7 @@
   .nav_link{
     @apply text-[#929292] text-[16px] leading-[24px] hover:text-[#1F1F1F] hover:font-bold
   }
+  .contact_heading{
+    @apply font-semibold text-[24px] leading-[50px] text-[#1F1F1F]
+  }
 }

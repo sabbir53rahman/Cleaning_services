@@ -11,13 +11,13 @@ function Footer() {
         <div className="flex flex-col lg:flex-row gap-[30px] lg:gap-[70px]">
           <div className="max-w-[529px]">
             <img src={logo} alt="Logo" className="max-w-full h-auto" />
-            <h3 className="text-[24px] font-semibold pt-[25px] leading-[50px] pb-[12px]">
+            <h3 className="contact_heading pt-[25px] pb-[12px]">
               Subscribe to our newsletter
             </h3>
             <Button label="Subscribe" />
             <div className="max-w-[529px] flex flex-col lg:flex-row pt-[25px]">
               <div className="pr-[20px] lg:border-r border-[#D9D9D9]">
-                <p className="text-[24px] leading-[40px] font-semibold">
+                <p className="contact_heading">
                   +00 88 55 645 000
                 </p>
                 <p className="underline text-[18px] leading-[50px]">
@@ -25,7 +25,7 @@ function Footer() {
                 </p>
               </div>
               <div className="pl-[0] lg:pl-[34px] pt-[10px] lg:pt-0">
-                <p className="text-[24px] leading-[40px] font-semibold">
+                <p className="contact_heading">
                   +00 88 55 645 000
                 </p>
                 <p className="underline text-[18px] leading-[50px]">
@@ -42,7 +42,7 @@ function Footer() {
           </div>
           <div className="flex flex-col lg:flex-row gap-[70px]">
             <div>
-              <h3 className="font-semibold text-[24px] pb-[10px] leading-[50px]">
+              <h3 className="contact_heading pb-[10px] ">
                 Useful Links
               </h3>
               <Link to="/">
@@ -62,7 +62,7 @@ function Footer() {
               </Link>
             </div>
             <div>
-              <h3 className="font-semibold text-[24px] pb-[10px] leading-[50px]">
+              <h3 className="contact_heading pb-[10px]">
                 Services
               </h3>
               <p className="text-[18px] leading-[50px]">House Cleaning</p>
