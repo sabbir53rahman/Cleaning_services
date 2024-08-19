@@ -65,30 +65,14 @@ function Footer() {
               <h3 className="font-semibold text-[24px] pb-[10px] leading-[50px]">
                 Services
               </h3>
-              <Link to="/house-cleaning">
-                <p className="text-[18px] leading-[50px]">House Cleaning</p>
-              </Link>
-              <Link to="/oven-cleaning">
-                <p className="text-[18px] leading-[50px]">Oven Cleaning</p>
-              </Link>
-              <Link to="/commercial-cleaning">
-                <p className="text-[18px] leading-[50px]">
-                  Commercial Cleaning
-                </p>
-              </Link>
-              <Link to="/construction-cleaning">
-                <p className="text-[18px] leading-[50px]">
-                  Construction Cleaning
-                </p>
-              </Link>
-              <Link to="/office-cleaning">
-                <p className="text-[18px] leading-[50px]">Office Cleaning</p>
-              </Link>
-              <Link to="/residential-cleaning">
-                <p className="text-[18px] leading-[50px]">
-                  Residential Cleaning
-                </p>
-              </Link>
+              <p className="text-[18px] leading-[50px]">House Cleaning</p>
+              <p className="text-[18px] leading-[50px]">Oven Cleaning</p>
+              <p className="text-[18px] leading-[50px]">Commercial Cleaning</p>
+              <p className="text-[18px] leading-[50px]">
+                Construction Cleaning
+              </p>
+              <p className="text-[18px] leading-[50px]">Office Cleaning</p>
+              <p className="text-[18px] leading-[50px]">Residential Cleaning</p>
             </div>
           </div>
         </div>

@@ -12,6 +12,8 @@ import Projects from './pages/Projects/Projects';
 import Contacts from './pages/Contacts/Contacts';
 import Layout from './components/Layout/Layout';
 
+
+
 const router = createBrowserRouter([
   {
     path: "/",
