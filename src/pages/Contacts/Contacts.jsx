@@ -24,7 +24,7 @@ function Contacts() {
               icon: 'success',
               title: 'Great!',
               text: 'Your message has been sent successfully',
-              footer: '<a href="/">Go home</a>'
+              footer: '<a href="#">Go home</a>'
             })
       }, (error) => {
           console.log(error.text);
