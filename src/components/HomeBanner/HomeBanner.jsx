@@ -69,9 +69,11 @@ function HomeBanner() {
               </div>
             </div>
 
-            <div className="p-[20px] bg-[#0073AC] text-white inline-flex items-center justify-center rounded-[14px]">
-              <FiPhone className="text-[18px]" />
-            </div>
+            <a href="tel:+23409119178436">
+              <div className="p-[20px] bg-[#0073AC] text-white inline-flex items-center justify-center rounded-[14px] cursor-pointer">
+                <FiPhone className="text-[18px]" />
+              </div>
+            </a>
           </div>
         </div>
       </div>
