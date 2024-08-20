@@ -16,6 +16,8 @@ import bgDoted from "../../assets/bgDoted.png";
 import Book from "../../assets/Book.png";
 import Confirm from "../../assets/Confirm.png";
 import Enjoy from "../../assets/Enjoy.png";
+import quote from "../../assets/quote.png";
+import client from "../../assets/client.png";
 import Button from "../../components/Button/Button";
 
 const services = [
@@ -66,6 +68,30 @@ const items2 = [
   "Scrubbing and disinfecting bathrooms and kitchens to remove grime and bacteria",
 ];
 
+const stats = [
+  {
+    bgColor: "#DBECFF",
+    count: "120+",
+    description: "Happy Clients",
+  },
+  {
+    bgColor: "#FFE9CA",
+    count: "150+",
+    description: "Project Complete",
+  },
+  {
+    bgColor: "#E1EEE8",
+    count: "20+",
+    description: "Team Members",
+  },
+  {
+    bgColor: "#FFE5F9",
+    count: "2+",
+    description: "year Experience",
+  },
+  // Add more items here if needed
+];
+
 function Home() {
   return (
     <>
@@ -73,7 +99,7 @@ function Home() {
 
       {/* mission vision section */}
 
-      <div className="my_container py-[160px] flex flex-col lg:flex-row gap-[20px]">
+      <div className="my_container pb-[80px] md:pb-[100px] lg:pb-[160px] flex flex-col lg:flex-row gap-[20px]">
         <div className="lg:w-1/2 border border-[#939393] rounded-[40px]">
           <h2 className="text-[32px] leading-[50px] font-bold text-center pt-[30px] font-secondary">
             Mission
@@ -106,7 +132,7 @@ function Home() {
 
       {/* We Provide Best Services */}
 
-      <div className="my_container pb-[160px]">
+      <div className="my_container pb-[80px] md:pb-[100px] lg:pb-[160px]">
         <div>
           <div className="flex justify-center pb-[15px]">
             <p className="border border-black inline-block py-[10px] px-[20px] rounded-[20px] text-center">
@@ -213,7 +239,7 @@ function Home() {
 
       {/* Additional Services section */}
 
-      <div className="my_container pb-[160px]">
+      <div className="my_container  pb-[80px] md:pb-[100px] lg:pb-[160px]">
         <div>
           <div className="flex justify-center pb-[15px]">
             <p className="border border-black inline-block py-[10px] px-[20px] rounded-[20px] text-center">
@@ -270,7 +296,7 @@ function Home() {
 
       {/* Exploring the Top Services */}
 
-      <div className="my_container pb-[120px]">
+      <div className="my_container pb-[80px] md:pb-[100px] lg:pb-[120px]">
         <div className="text-center pb-[15px]">
           <p className="border border-black inline-block py-[10px] px-[20px] rounded-[20px]">
             Featured Services
@@ -399,7 +425,7 @@ function Home() {
 
       {/* Our working process */}
 
-      <div className="my_container pb-[120px]">
+      <div className="my_container pb-[80px] md:pb-[100px] lg:pb-[120px]">
         <div className="text-center pb-[15px]">
           <p className="border border-black inline-block py-[10px] px-[20px] rounded-[20px]">
             Our working process
@@ -421,7 +447,7 @@ function Home() {
         >
           <div className="grid lg:max-w-[1100px] lg:mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[80px] px-[50px]">
             {/* First Card */}
-            <div className="border lg:max-w-[278px] border-[#939393] p-[30px] rounded-[20px] lg:rotate-[-13.36deg] bg-[#E1EEE8]">
+            <div className="border lg:max-w-[278px] border-[#939393] p-[10px] md:p-[30px] rounded-[20px] lg:rotate-[-13.36deg] bg-[#E1EEE8]">
               <img src={Book} className="pb-[20px]" alt="Book" />
               <h3 className="text-[24px] font-bold font-secondary pb-[20px] leading-[30px]">
                 Book Online
@@ -433,7 +459,7 @@ function Home() {
             </div>
 
             {/* Second Card */}
-            <div className="border lg:max-w-[278px] border-[#939393] p-[30px] lg:rotate-[11.36deg] rounded-[20px] bg-[#FFE9CA]">
+            <div className="border lg:max-w-[278px] border-[#939393] p-[10px] md:p-[30px] lg:rotate-[11.36deg] rounded-[20px] bg-[#FFE9CA]">
               <img src={Confirm} className="pb-[20px]" alt="Book" />
               <h3 className="text-[24px] font-bold font-secondary pb-[20px] leading-[30px]">
                 Get Confirmation
@@ -445,7 +471,7 @@ function Home() {
             </div>
 
             {/* Third Card */}
-            <div className="border lg:max-w-[278px] border-[#939393] p-[30px] lg:rotate-[-5.71deg] rounded-[20px] bg-[#FFE5F9]">
+            <div className="border lg:max-w-[278px] border-[#939393] p-[10px] md:p-[30px] lg:rotate-[-5.71deg] rounded-[20px] bg-[#FFE5F9]">
               <img src={Enjoy} className="pb-[20px]" alt="Book" />
               <h3 className="text-[24px] font-bold font-secondary pb-[20px] leading-[30px]">
                 Enjoy Services
@@ -456,6 +482,56 @@ function Home() {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Testimonials */}
+
+      <div className="my_container pb-[80px] md:pb-[100px] lg:pb-[160px] lg:pt-[80px]">
+        <div className="text-center pb-[15px]">
+          <p className="border border-black inline-block py-[10px] px-[20px] rounded-[20px]">
+            Testimonials
+          </p>
+        </div>
+
+        <h2 className="heading_2 text-center pb-[50px]">What our client say</h2>
+        <p className="text text-center lg:max-w-[774px] lg:mx-auto pb-[50px]">
+          These testimonials highlight the convenience, reliability and quality
+          of service that out website provides. We’re proud to serve our
+          customers and expend their expectation every step of the way
+        </p>
+
+        <div className="flex z-0">
+          <div className="z-10 hidden lg:inline">
+            <img src={client} className="lg:ml-[200px]  " alt="" />
+          </div>
+          <div className="lg:max-w-[772px] z-0 border border-[#939393] rounded-[30px] p-[30px] md:p-[60px]">
+            <img src={quote} className="rotate-180" alt="Quote" />
+            <h3 className="text-[32px] leading-[38px] font-bold text-center">
+              Mattaniah Okodugha
+            </h3>
+            <p className="text text-center pt-[30px]">
+              Incredible convenience! I urgently needed a house cleaner, and the
+              website made it quick and easy to book. The cleaner was very
+              professional, and the service was top-notch. I was extremely
+              satisfied.
+            </p>
+            <img src={quote} className="ml-auto lg:pb-[40px]" alt="Quote" />
+          </div>
+        </div>
+        <div className="grid gap-[30px] md:grid-cols-2 pt-[50px] lg:pt-0 lg:mt-[-90px] lg:grid-cols-5">
+          {stats.map((stat, index) => (
+            <div
+              key={index}
+              className="border border-[#939393] rounded-[30px] px-[20px] py-[50px] z-20"
+              style={{ backgroundColor: stat.bgColor }}
+            >
+              <h2 className="md:text-[72px] text-[58px] leading-[75px] md:leading-[87px] font-bold text-center">
+                {stat.count}
+              </h2>
+              <p className="text text-[20px] text-center">{stat.description}</p>
+            </div>
+          ))}
         </div>
       </div>
     </>

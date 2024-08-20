@@ -14,7 +14,9 @@ function Header() {
     <header className="w-full bg-white shadow-md py-4 relative">
       <div className="my_container flex items-center justify-between">
         {/* Logo */}
-        <img src={Logo} alt="Logo" />
+        <Link to={"/"}>
+          <img src={Logo} alt="Logo" />
+        </Link>
 
         {/* Navigation Links */}
         <nav className="hidden xl:flex gap-8 items-center">

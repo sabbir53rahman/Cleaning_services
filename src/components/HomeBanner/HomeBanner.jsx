@@ -7,12 +7,12 @@ function HomeBanner() {
   return (
     <>
       <div
-        className="w-full h-[90vh] bg-cover bg-no-repeat bg-center flex items-center justify-center"
+        className="w-full h-[90vh] bg-cover bg-no-repeat bg-center flex items-center justify-center pb-[100px] md:pb-0"
         style={{ backgroundImage: `url(${homeBanner})` }}
       >
         <div className="lg:max-w-[999px]">
           <div>
-            <h1 className="main_heading pt-[150px] md:pt-0">
+            <h1 className="main_heading pt-[150px]  md:pt-0">
               Your Space
               <br /> We Clean
             </h1>
