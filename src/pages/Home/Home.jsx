@@ -14,7 +14,7 @@ function Home() {
           <h2 className="text-[32px] leading-[50px] font-bold text-center pt-[30px] font-secondary">
             Mission
           </h2>
-          <p className="text text-center md:p-[32px]">
+          <p className="text text-center p-[10px] md:p-[32px]">
             “ At Clean My Space Ltd, our mission is to provide exceptional
             cleaning services that enhance the comfort and well-being of our
             clients. We are dedicated to delivering meticulous, reliable, and
@@ -28,7 +28,7 @@ function Home() {
           <h2 className="text-[32px] leading-[50px] font-bold text-center pt-[30px] font-secondary">
             Vision
           </h2>
-          <p className="text text-center md:p-[32px]">
+          <p className="text text-center p-[10px] md:p-[32px]">
             “ Our vision at Clean My Space Ltd is to be the leading provider of
             innovative and sustainable cleaning services, renowned for our
             commitment to excellence and customer satisfaction. We aspire to set
