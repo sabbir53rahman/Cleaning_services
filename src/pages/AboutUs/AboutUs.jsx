@@ -168,37 +168,34 @@ function AboutUs() {
       </div>
 
       <div className="my_container pb-[80px] md:pb-[110px] lg:pb-[160px]">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:items-end items-center ">
           {/* First Row */}
           <div
             className="col-span-1 sm:col-span-2 lg:col-span-2 p-[20px] 
                   lg:border-r-0 lg:border-t-0 border-[#D9D9D9] 
                  border lg:border-l-0  lg:border-[#D9D9D9]"
           >
-            <h2 className="text-[72px] leading-[87px] font-bold text-center">
-              120+
+            <h2 className="text-[44px] leading-[52px] font-bold font-secondary text-center">
+              Stories of Satisfaction and growth
             </h2>
-            <p className="text-[20px] text-center">Happy Clients</p>
           </div>
           <div
             className="col-span-1 p-[20px] 
                  border-t-0 lg:border-l lg:border-r-0 lg:border-t-0  
                  border border-[#D9D9D9]  lg:border-[#D9D9D9]"
           >
-            <h2 className="text-[72px] leading-[87px] font-bold text-center">
-              150+
+            <h2 className="text-[100px] leading-[120px] font-bold font-secondary text-center">
+              120+
             </h2>
-            <p className="text-[20px] text-center">Project Complete</p>
           </div>
           <div
             className="col-span-1 p-[20px] 
                  border-t-0 lg:border-l lg:border-t-0 border-[#D9D9D9] 
                  border lg:border-r-0  lg:border-[#D9D9D9]"
           >
-            <h2 className="text-[72px] leading-[87px] font-bold text-center">
-              20+
-            </h2>
-            <p className="text-[20px] text-center">Team Members</p>
+            <p className="text-[20px] leading-[39px] font-semibold text-center">
+              Empowering 120+ clients for success and satisfaction
+            </p>
           </div>
 
           {/* Second Row */}
@@ -207,20 +204,19 @@ function AboutUs() {
                  border-t-0 lg:border-b-0 lg:border-l-0 lg:border-r lg:border-t-0 border-[#D9D9D9] 
                  border border-b-0 lg:border-[#D9D9D9]"
           >
-            <h2 className="text-[72px] leading-[87px] font-bold text-center">
+            <h2 className="text-[100px] leading-[120px] font-bold font-secondary text-center">
               2+
             </h2>
-            <p className="text-[20px] text-center">Year Experience</p>
           </div>
           <div
             className="col-span-1 sm:col-span-2 lg:col-span-3 p-[20px] 
                  border-t lg:border-l-0 lg:border-b-0 lg:border-r-0 lg:border-t-0 lg:border-[#D9D9D9] 
                  border border-[#D9D9D9] "
           >
-            <h2 className="text-[72px] leading-[87px] font-bold text-center">
-              5+
-            </h2>
-            <p className="text-[20px] text-center">Awards Won</p>
+            <p className="text-[20px] leading-[39px] font-semibold text-center">
+              CMS Cleaning has 2+ years of experience with providing wide area
+              of specialty services works listed below
+            </p>
           </div>
         </div>
       </div>
