@@ -7,8 +7,11 @@ import homeService3 from "../../assets/homeService3.png";
 import homeService4 from "../../assets/homeService4.png";
 import TopService1 from "../../assets/TopService1.png";
 import TopService2 from "../../assets/TopService2.png";
+import bestServices1 from "../../assets/bestServices1.png";
+import bestServices2 from "../../assets/bestServices2.png";
+import bestServices3 from "../../assets/bestServices3.png";
+import bestServices4 from "../../assets/bestServices4.png";
 import checkBox from "../../assets/checkBox.png";
-import { RiCheckboxCircleLine } from "react-icons/ri";
 import Button from "../../components/Button/Button";
 
 const services = [
@@ -94,6 +97,113 @@ function Home() {
             that every space we touch is not only clean but also contributes to
             a better, more sustainable world. ”
           </p>
+        </div>
+      </div>
+
+      {/* We Provide Best Services */}
+
+      <div className="my_container pb-[160px]">
+        <div>
+          <div className="flex justify-center pb-[15px]">
+            <p className="border border-black inline-block py-[10px] px-[20px] rounded-[20px] text-center">
+              Our Services
+            </p>
+          </div>
+
+          <h2 className="heading_2 text-center pb-[50px]">
+            We Provide Best Services
+          </h2>
+          <p className="text text-center lg:max-w-[774px] lg:mx-auto pb-[50px]">
+            We promise to prioritize your and surpass your expectations at every
+            turn. Whether you’re seeking professional Expertise, Creative
+            solutions or reliable support.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[0px] items-start">
+          {/* First Div */}
+          <div className="relative border-b border-[#D9D9D9] md:border-r lg:p-[60px] p-[20px]">
+            <div className="flex items-center gap-[16px] pb-[20px]">
+              <div className="p-[24px] bg-[#FFE9CA] border border-[#939393] rounded-[20px]">
+                <img src={bestServices1} alt="" />
+              </div>
+              <div>
+                <p className="text">Expert</p>
+                <p className="text-[28px] font-semibold leading-[30px]">
+                  Workers
+                </p>
+              </div>
+            </div>
+            <div>
+              <p className="text text-[16px]">
+                Expert workers are highly skilled professionals with extensive
+                experience in their respective fields.
+              </p>
+            </div>
+          </div>
+
+          {/* Second Div */}
+          <div className="relative border-b border-[#D9D9D9] lg:p-[60px] p-[20px]">
+            <div className="flex items-center gap-[16px] pb-[20px]">
+              <div className="p-[24px] bg-[#EFF2FC] border border-[#939393] rounded-[20px]">
+                <img src={bestServices2} alt="" />
+              </div>
+              <div>
+                <p className="text">Advance</p>
+                <p className="text-[28px] font-semibold leading-[30px]">
+                  Services
+                </p>
+              </div>
+            </div>
+            <div>
+              <p className="text text-[16px]">
+                Expert workers are highly skilled professionals with extensive
+                experience in their respective fields.
+              </p>
+            </div>
+          </div>
+
+          {/* Third Div */}
+          <div className="relative border-b md:border-b-0 border-[#D9D9D9] md:border-r lg:p-[60px] p-[20px]">
+            <div className="flex items-center gap-[16px] pb-[20px]">
+              <div className="p-[24px] bg-[#E1EEE8] border border-[#939393] rounded-[20px]">
+                <img src={bestServices3} alt="" />
+              </div>
+              <div>
+                <p className="text">24/7</p>
+                <p className="text-[28px] font-semibold leading-[30px]">
+                  Services
+                </p>
+              </div>
+            </div>
+            <div>
+              <p className="text text-[16px]">
+                Expert workers are highly skilled professionals with extensive
+                experience in their respective fields.
+              </p>
+            </div>
+          </div>
+
+          {/* Fourth Div */}
+          <div className="relative border-b md:border-none border-[#D9D9D9] lg:p-[60px] p-[20px]">
+            <div className="flex items-center gap-[16px] pb-[20px]">
+              <div className="p-[24px] bg-[#FFE5F9] border border-[#939393] rounded-[20px]">
+                <img src={bestServices4} alt="" />
+              </div>
+              <div>
+                <p className="text">Customer</p>
+                <p className="text-[28px] font-semibold leading-[30px]">
+                  Satisfaction
+                </p>
+              </div>
+            </div>
+            <div>
+              <p className="text text-[16px]">
+                Expert workers are highly skilled professionals with extensive
+                experience in their respective fields.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 

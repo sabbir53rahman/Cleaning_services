@@ -9,7 +9,7 @@ function Footer() {
     <>
       <div className="my_container bg-[#F3F3F3] rounded-[30px] p-[20px] md:p-[30px] xl:p-[60px] border border-[#939393]">
         <div className="flex flex-col md:flex-row gap-[40px] items-center md:justify-between lg:gap-[70px]">
-          <div className="flex flex-col items-center md:items-start max-w-[529px]  lg:text-left">
+          <div className="flex flex-col items-center md:items-start max-w-[549px]  lg:text-left">
             <img src={logo} alt="Logo" className="max-w-full h-auto" />
             <h3 className="contact_heading pt-[25px] pb-[12px]">
               Subscribe to our newsletter
@@ -22,7 +22,7 @@ function Footer() {
                   business@cleanmyspace.ng
                 </p>
               </div>
-              <div className="lg:pl-[34px] pt-[10px] lg:pt-0">
+              <div className=" pt-[10px] lg:pt-0">
                 <p className="contact_heading">+00 88 55 645 000</p>
                 <p className="underline text-[18px] leading-[50px]">
                   ceo@cleanmyspace.ng
