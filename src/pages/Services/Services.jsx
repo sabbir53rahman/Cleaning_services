@@ -107,93 +107,93 @@ function Services() {
       <div className="my_container pb-[160px] ">
         <h2 className="heading_2 text-center pb-[50px]">Additional Services</h2>
         <div className="flex flex-wrap gap-[20px] justify-center">
-  <div className="w-full lg:w-[32%] border border-[#939393] rounded-[20px] bg-[#EFF2FC] p-[25px]">
-    <h3 className="text-[#1F1F1F] text-[22px] leading-[26px] pb-[20px] font-semibold border-b border-[#939393]">
-      Eco-Friendly Initiatives
-    </h3>
-    <div className="flex gap-[10px] py-[25px]">
-      <RiCheckboxCircleLine className="size-[40px] text-[#48BEF7]" />
-      <p className="text text-[16px]">
-        Expanded use of sustainable and biodegradable cleaning products
-      </p>
-    </div>
-    <div className="flex gap-[10px] pb-[25px]">
-      <RiCheckboxCircleLine className="size-[25px] text-[#48BEF7]" />
-      <p className="text text-[16px]">
-        Green certification for all cleaning processes
-      </p>
-    </div>
-  </div>
-  <div className="w-full lg:w-[32%] border border-[#939393] rounded-[20px] bg-[#FFE9CA] p-[25px]">
-    <h3 className="text-[#1F1F1F] text-[22px] leading-[26px] pb-[20px] font-semibold border-b border-[#939393]">
-      Enhanced Technology
-    </h3>
-    <div className="flex gap-[10px] py-[25px]">
-      <RiCheckboxCircleLine className="size-[35px] text-[#48BEF7]" />
-      <p className="text text-[16px]">
-        Introduction of advanced cleaning equipment and tools
-      </p>
-    </div>
-    <div className="flex gap-[10px] pb-[25px]">
-      <RiCheckboxCircleLine className="size-[40px] text-[#48BEF7]" />
-      <p className="text text-[16px]">
-        Implementation of smart cleaning solutions and scheduling
-      </p>
-    </div>
-  </div>
-  <div className="w-full lg:w-[32%] border border-[#939393] rounded-[20px] bg-[#FFE5F9] p-[25px]">
-    <h3 className="text-[#1F1F1F] text-[22px] leading-[26px] pb-[20px] font-semibold border-b border-[#939393]">
-      Customized Package
-    </h3>
-    <div className="flex gap-[10px] py-[25px]">
-      <RiCheckboxCircleLine className="size-[35px] text-[#48BEF7]" />
-      <p className="text text-[16px]">
-        Tailored cleaning solutions for unique client needs
-      </p>
-    </div>
-    <div className="flex gap-[10px] pb-[25px]">
-      <RiCheckboxCircleLine className="size-[40px] text-[#48BEF7]" />
-      <p className="text text-[16px]">
-        Subscription-based services for regular, hassle-free cleaning
-      </p>
-    </div>
-  </div>
-  <div className="w-full lg:w-[32%] border border-[#939393] rounded-[20px] bg-[#F8F8F5] p-[25px] lg:self-center">
-    <h3 className="text-[#1F1F1F] text-[22px] leading-[26px] pb-[20px] font-semibold border-b border-[#939393]">
-      Special Event Services
-    </h3>
-    <div className="flex gap-[10px] py-[25px]">
-      <RiCheckboxCircleLine className="size-[40px] text-[#48BEF7]" />
-      <p className="text text-[16px]">
-        Pre- and post-event cleaning for weddings, parties, and corporate events
-      </p>
-    </div>
-    <div className="flex gap-[10px] pb-[25px]">
-      <RiCheckboxCircleLine className="size-[25px] text-[#48BEF7]" />
-      <p className="text text-[16px]">
-        Specialized setup and teardown cleaning
-      </p>
-    </div>
-  </div>
-  <div className="w-full lg:w-[32%] border border-[#939393] rounded-[20px] bg-[#FFFFFF] p-[25px] lg:self-center">
-    <h3 className="text-[#1F1F1F] text-[22px] leading-[26px] pb-[20px] font-semibold border-b border-[#939393]">
-      Additional Specialized Cleaning
-    </h3>
-    <div className="flex gap-[10px] py-[25px]">
-      <RiCheckboxCircleLine className="size-[25px] text-[#48BEF7]" />
-      <p className="text text-[16px]">HVAC System Cleaning</p>
-    </div>
-    <div className="flex gap-[10px] pb-[25px]">
-      <RiCheckboxCircleLine className="size-[25px] text-[#48BEF7]" />
-      <p className="text text-[16px]">Tile and Grout Cleaning</p>
-    </div>
-    <div className="flex gap-[10px] pb-[25px]">
-      <RiCheckboxCircleLine className="size-[25px] text-[#48BEF7]" />
-      <p className="text text-[16px]">Odor Removal Services</p>
-    </div>
-  </div>
-</div>
-
+          <div className="w-full lg:w-[32%] border border-[#939393] rounded-[20px] bg-[#EFF2FC] p-[25px]">
+            <h3 className="text-[#1F1F1F] text-[22px] leading-[26px] pb-[20px] font-semibold border-b border-[#939393]">
+              Eco-Friendly Initiatives
+            </h3>
+            <div className="flex gap-[10px] py-[25px]">
+              <RiCheckboxCircleLine className="size-[40px] text-[#48BEF7]" />
+              <p className="text text-[16px]">
+                Expanded use of sustainable and biodegradable cleaning products
+              </p>
+            </div>
+            <div className="flex gap-[10px] pb-[25px]">
+              <RiCheckboxCircleLine className="size-[25px] text-[#48BEF7]" />
+              <p className="text text-[16px]">
+                Green certification for all cleaning processes
+              </p>
+            </div>
+          </div>
+          <div className="w-full lg:w-[32%] border border-[#939393] rounded-[20px] bg-[#FFE9CA] p-[25px]">
+            <h3 className="text-[#1F1F1F] text-[22px] leading-[26px] pb-[20px] font-semibold border-b border-[#939393]">
+              Enhanced Technology
+            </h3>
+            <div className="flex gap-[10px] py-[25px]">
+              <RiCheckboxCircleLine className="size-[35px] text-[#48BEF7]" />
+              <p className="text text-[16px]">
+                Introduction of advanced cleaning equipment and tools
+              </p>
+            </div>
+            <div className="flex gap-[10px] pb-[25px]">
+              <RiCheckboxCircleLine className="size-[40px] text-[#48BEF7]" />
+              <p className="text text-[16px]">
+                Implementation of smart cleaning solutions and scheduling
+              </p>
+            </div>
+          </div>
+          <div className="w-full lg:w-[32%] border border-[#939393] rounded-[20px] bg-[#FFE5F9] p-[25px]">
+            <h3 className="text-[#1F1F1F] text-[22px] leading-[26px] pb-[20px] font-semibold border-b border-[#939393]">
+              Customized Package
+            </h3>
+            <div className="flex gap-[10px] py-[25px]">
+              <RiCheckboxCircleLine className="size-[35px] text-[#48BEF7]" />
+              <p className="text text-[16px]">
+                Tailored cleaning solutions for unique client needs
+              </p>
+            </div>
+            <div className="flex gap-[10px] pb-[25px]">
+              <RiCheckboxCircleLine className="size-[40px] text-[#48BEF7]" />
+              <p className="text text-[16px]">
+                Subscription-based services for regular, hassle-free cleaning
+              </p>
+            </div>
+          </div>
+          <div className="w-full lg:w-[32%] border border-[#939393] rounded-[20px] bg-[#F8F8F5] p-[25px] lg:self-center">
+            <h3 className="text-[#1F1F1F] text-[22px] leading-[26px] pb-[20px] font-semibold border-b border-[#939393]">
+              Special Event Services
+            </h3>
+            <div className="flex gap-[10px] py-[25px]">
+              <RiCheckboxCircleLine className="size-[40px] text-[#48BEF7]" />
+              <p className="text text-[16px]">
+                Pre- and post-event cleaning for weddings, parties, and
+                corporate events
+              </p>
+            </div>
+            <div className="flex gap-[10px] pb-[25px]">
+              <RiCheckboxCircleLine className="size-[25px] text-[#48BEF7]" />
+              <p className="text text-[16px]">
+                Specialized setup and teardown cleaning
+              </p>
+            </div>
+          </div>
+          <div className="w-full lg:w-[32%] border border-[#939393] rounded-[20px] bg-[#FFFFFF] p-[25px] lg:self-center">
+            <h3 className="text-[#1F1F1F] text-[22px] leading-[26px] pb-[20px] font-semibold border-b border-[#939393]">
+              Additional Specialized Cleaning
+            </h3>
+            <div className="flex gap-[10px] py-[25px]">
+              <RiCheckboxCircleLine className="size-[25px] text-[#48BEF7]" />
+              <p className="text text-[16px]">HVAC System Cleaning</p>
+            </div>
+            <div className="flex gap-[10px] pb-[25px]">
+              <RiCheckboxCircleLine className="size-[25px] text-[#48BEF7]" />
+              <p className="text text-[16px]">Tile and Grout Cleaning</p>
+            </div>
+            <div className="flex gap-[10px] pb-[25px]">
+              <RiCheckboxCircleLine className="size-[25px] text-[#48BEF7]" />
+              <p className="text text-[16px]">Odor Removal Services</p>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
