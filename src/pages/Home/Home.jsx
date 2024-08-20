@@ -12,6 +12,10 @@ import bestServices2 from "../../assets/bestServices2.png";
 import bestServices3 from "../../assets/bestServices3.png";
 import bestServices4 from "../../assets/bestServices4.png";
 import checkBox from "../../assets/checkBox.png";
+import bgDoted from "../../assets/bgDoted.png";
+import Book from "../../assets/Book.png";
+import Confirm from "../../assets/Confirm.png";
+import Enjoy from "../../assets/Enjoy.png";
 import Button from "../../components/Button/Button";
 
 const services = [
@@ -389,6 +393,68 @@ function Home() {
               alt="Top Service image 2"
               className="mx-auto lg:mx-0"
             />
+          </div>
+        </div>
+      </div>
+
+      {/* Our working process */}
+
+      <div className="my_container pb-[120px]">
+        <div className="text-center pb-[15px]">
+          <p className="border border-black inline-block py-[10px] px-[20px] rounded-[20px]">
+            Our working process
+          </p>
+        </div>
+
+        <h2 className="heading_2 text-center pb-[50px]">
+          How we can make place clean
+        </h2>
+        <p className="text text-center lg:max-w-[774px] lg:mx-auto pb-[50px]">
+          We promise to prioritize your and surpass your expectations at every
+          turn. Whether you’re seeking professional Expertise, Creative
+          solutions or reliable support.
+        </p>
+
+        <div
+          className="w-full lg:h-[300px] bg-none bg-center bg-no-repeat lg:bg-contain"
+          style={{ backgroundImage: `url(${bgDoted})` }}
+        >
+          <div className="grid lg:max-w-[1100px] lg:mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[80px] px-[50px]">
+            {/* First Card */}
+            <div className="border lg:max-w-[278px] border-[#939393] p-[30px] rounded-[20px] lg:rotate-[-13.36deg] bg-[#E1EEE8]">
+              <img src={Book} className="pb-[20px]" alt="Book" />
+              <h3 className="text-[24px] font-bold font-secondary pb-[20px] leading-[30px]">
+                Book Online
+              </h3>
+              <p className="text-[14px] leading-[22px] text-[#4F4F4F] pb-[20px]">
+                Expert workers are highly skilled professionals with extensive
+                experience in their respective fields.
+              </p>
+            </div>
+
+            {/* Second Card */}
+            <div className="border lg:max-w-[278px] border-[#939393] p-[30px] lg:rotate-[11.36deg] rounded-[20px] bg-[#FFE9CA]">
+              <img src={Confirm} className="pb-[20px]" alt="Book" />
+              <h3 className="text-[24px] font-bold font-secondary pb-[20px] leading-[30px]">
+                Get Confirmation
+              </h3>
+              <p className="text-[14px] leading-[22px] text-[#4F4F4F] pb-[20px]">
+                Expert workers are highly skilled professional with extensive in
+                their respective fields.
+              </p>
+            </div>
+
+            {/* Third Card */}
+            <div className="border lg:max-w-[278px] border-[#939393] p-[30px] lg:rotate-[-5.71deg] rounded-[20px] bg-[#FFE5F9]">
+              <img src={Enjoy} className="pb-[20px]" alt="Book" />
+              <h3 className="text-[24px] font-bold font-secondary pb-[20px] leading-[30px]">
+                Enjoy Services
+              </h3>
+              <p className="text-[14px] leading-[22px] text-[#4F4F4F] pb-[20px]">
+                Expert workers are highly skilled professional with extensive in
+                their respective fields.
+              </p>
+            </div>
           </div>
         </div>
       </div>
