@@ -92,7 +92,7 @@ function Services() {
       </div>
 
       {/* Job done section */}
-      <div className="max-w-[971px] mx-[10px] md:mx-[20px] lg:mx-auto flex flex-col lg:flex-row  lg:pb-[160px] pb-[80px]">
+      <div className="max-w-[971px] mx-[10px] md:mx-[20px] lg:mx-auto flex flex-col lg:flex-row gap-[20px] lg:pb-[160px] pb-[80px]">
         <div className="lg:max-w-[496px]">
           <p className="text text-[#4F4F4F]">
             We promise to prioritize your and surpass your expectations at every

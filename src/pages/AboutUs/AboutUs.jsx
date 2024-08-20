@@ -167,6 +167,64 @@ function AboutUs() {
         </div>
       </div>
 
+      <div className="my_container pb-[80px] md:pb-[110px] lg:pb-[160px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 ">
+          {/* First Row */}
+          <div
+            className="col-span-1 sm:col-span-2 lg:col-span-2 p-[20px] 
+                  lg:border-r-0 lg:border-t-0 border-[#D9D9D9] 
+                 border lg:border-l-0  lg:border-[#D9D9D9]"
+          >
+            <h2 className="text-[72px] leading-[87px] font-bold text-center">
+              120+
+            </h2>
+            <p className="text-[20px] text-center">Happy Clients</p>
+          </div>
+          <div
+            className="col-span-1 p-[20px] 
+                 border-t-0 lg:border-l lg:border-r-0 lg:border-t-0  
+                 border border-[#D9D9D9]  lg:border-[#D9D9D9]"
+          >
+            <h2 className="text-[72px] leading-[87px] font-bold text-center">
+              150+
+            </h2>
+            <p className="text-[20px] text-center">Project Complete</p>
+          </div>
+          <div
+            className="col-span-1 p-[20px] 
+                 border-t-0 lg:border-l lg:border-t-0 border-[#D9D9D9] 
+                 border lg:border-r-0  lg:border-[#D9D9D9]"
+          >
+            <h2 className="text-[72px] leading-[87px] font-bold text-center">
+              20+
+            </h2>
+            <p className="text-[20px] text-center">Team Members</p>
+          </div>
+
+          {/* Second Row */}
+          <div
+            className="col-span-1 p-[20px] 
+                 border-t-0 lg:border-b-0 lg:border-l-0 lg:border-r lg:border-t-0 border-[#D9D9D9] 
+                 border border-b-0 lg:border-[#D9D9D9]"
+          >
+            <h2 className="text-[72px] leading-[87px] font-bold text-center">
+              2+
+            </h2>
+            <p className="text-[20px] text-center">Year Experience</p>
+          </div>
+          <div
+            className="col-span-1 sm:col-span-2 lg:col-span-3 p-[20px] 
+                 border-t lg:border-l-0 lg:border-b-0 lg:border-r-0 lg:border-t-0 lg:border-[#D9D9D9] 
+                 border border-[#D9D9D9] "
+          >
+            <h2 className="text-[72px] leading-[87px] font-bold text-center">
+              5+
+            </h2>
+            <p className="text-[20px] text-center">Awards Won</p>
+          </div>
+        </div>
+      </div>
+
       {/* contact us section */}
 
       <div className="my_container flex flex-col lg:flex-row pb-[160px] gap-[20px]">
