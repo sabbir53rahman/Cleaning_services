@@ -18,7 +18,12 @@ import Confirm from "../../assets/Confirm.png";
 import Enjoy from "../../assets/Enjoy.png";
 import quote from "../../assets/quote.png";
 import client from "../../assets/client.png";
+import worker1 from "../../assets/worker1.png";
+import worker2 from "../../assets/worker2.png";
+import worker3 from "../../assets/worker3.png";
 import Button from "../../components/Button/Button";
+import { IoIosPlay } from "react-icons/io";
+import { FaArrowRight, FaStar } from "react-icons/fa";
 
 const services = [
   {
@@ -96,6 +101,84 @@ function Home() {
   return (
     <>
       <HomeBanner />
+
+      {/* Plan & Explore section */}
+
+      <div className="my_container flex justify-center flex-col gap-[80px] lg:flex-row pb-[80px] md:pb-[100px] lg:pb-[160px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px] items-end">
+          <div className="bg-[#DBECFF] border border-[#939393] h-max px-[20px] pt-[20px] rounded-[25px] md:max-w-[255px] flex justify-end flex-col">
+            <div className="flex justify-end items-center">
+              <div className="bg-black inline-block rounded-full p-[20px] z-0"></div>
+              <div className="bg-white border border-black inline-block rounded-full p-[10px] z-10 relative -left-[20px]">
+                <IoIosPlay className="size-[20px]" />
+              </div>
+              <p className="text-[14px] font-medium pr-[20px]">Watch</p>
+            </div>
+            <img src={worker1} alt="" className="self-end" />
+          </div>
+
+          <div className="bg-[#FFE9CA] border border-[#939393] px-[20px] h-max pt-[20px] flex flex-row md:max-w-[255px] rounded-[25px]">
+            <div className="flex flex-col justify-between pb-[80px]">
+              <p className="text-[14px] font-medium ">
+                On Demand Cleaning Service
+              </p>
+              <div className="flex items-center w-max gap-[10px] bg-white rotate-[-90deg] justify-end border border-black py-[10px] px-[20px] rounded-[20px]">
+                <p className="text-center">Get Plan</p>
+                <FaArrowRight />
+              </div>
+            </div>
+            <img
+              src={worker2}
+              alt=""
+              className="self-end lg:w-[200px] w-full lg:h-[250px]"
+            />
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[60px] items-end">
+          <div className="bg-[#FFE5F9] border border-[#939393] px-[20px]  pt-[20px] flex flex-row md:max-w-[255px] rounded-[25px]">
+            <div className="flex flex-col pb-[80px]">
+              <p className="text-[14px] pb-[20px] font-medium ">
+                Register in 3 Steps
+              </p>
+              <div className="flex items-center">
+                <div className="bg-white border border-black inline-block rounded-full py-[10px] px-[15px]  z-0">
+                  <p>1</p>
+                </div>
+                <div className="bg-black text-white inline-block rounded-full py-[10px] px-[14px] relative -left-[10px] z-10">
+                  <p>2</p>
+                </div>
+                <div className="bg-white border border-black inline-block rounded-full py-[10px] px-[14px] relative -left-[20px] z-20">
+                  <p className="">3</p>
+                </div>
+              </div>
+            </div>
+            <img src={worker3} alt="" className="self-end w-full ml-[-30px]" />
+          </div>
+
+          <div className="bg-[#FFE9CA] border border-[#939393] px-[20px] h-max pt-[20px] flex flex-row md:max-w-[200px] rounded-[25px]">
+            <div className="flex flex-col justify-between pb-[20px]">
+              <div className="flex items-center w-max gap-[5px] bg-inherit border border-black py-[10px] px-[20px] rounded-[20px]">
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+              </div>
+              <p className="text-[14px] font-medium py-[10px] ">
+                Get premium quality cleaning service{" "}
+              </p>
+              <div className="flex items-center w-max gap-[10px] pt-[10px] bg-white border border-black py-[10px] px-[20px] rounded-[20px]">
+                <p className="text-center">Explore</p>
+              </div>
+              <a href="#" className="flex items-center gap-[10px] pt-[20px] ">
+                <p className="text">see more</p>
+                <FaArrowRight />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* mission vision section */}
 

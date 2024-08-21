@@ -13,31 +13,52 @@ function Projects() {
 
       {/* Recent Projects section */}
 
-      <div className="my_container ">
+      <div className="my_container">
         <h2 className="heading_2 text-center py-[80px]">Recent Projects</h2>
         <div className="flex flex-col lg:flex-row gap-[20px] pb-[160px]">
-          <div className="lg:w-1/2 w-full">
-            <img src={projectImg1} alt="" />
-            <h3 className="text-[24px] font-semibold leading-[28px] pb-[10px] pt-[20px]">
+          {/* First Project */}
+          <div className="lg:w-1/2 w-full flex flex-col items-center">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/6mdV8XoKZR0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              className="rounded-[15px]"
+            ></iframe>
+            <h3 className="text-[24px] font-semibold leading-[28px] pb-[10px] pt-[20px] text-center lg:text-left">
               Tokyo Nightlife Abuja
             </h3>
-            <div className="flex gap-[10px]">
+            <div className="flex gap-[10px] justify-center lg:justify-start">
               <RiMapPinLine className="size-[20px]" />
-              <p className="text">
+              <p className="text text-center lg:text-left">
                 5 Lobito Cres, Wuse, Abuja 900288, Federal Capital
               </p>
             </div>
           </div>
-          <div className="lg:w-1/2 w-full">
-            <img src={projectImg2} alt="" />
-            <h3 className="text-[24px] font-semibold leading-[28px] pb-[10px] pt-[20px]">
+
+          {/* Second Project */}
+          <div className="lg:w-1/2 w-full flex flex-col items-center">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/qwnLP_wHvTY"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              className="rounded-[15px]"
+            ></iframe>
+            <h3 className="text-[24px] font-semibold leading-[28px] pb-[10px] pt-[20px] text-center lg:text-left">
               Moscow Underground
             </h3>
-            <div className="flex gap-[10px]">
+            <div className="flex gap-[10px] justify-center lg:justify-start">
               <RiMapPinLine className="size-[20px]" />
-              <p className="text">
-                35 Adetokunbo Ademola Cres, Wuse, Abuja 904101, Federal
-                Capital Territory
+              <p className="text text-center lg:text-left">
+                35 Adetokunbo Ademola Cres, Wuse, Abuja 904101, Federal Capital
+                Territory
               </p>
             </div>
           </div>

@@ -7,7 +7,7 @@ function HomeBanner() {
   return (
     <>
       <div
-        className="w-full h-[90vh] bg-cover bg-no-repeat bg-center flex items-center justify-center pb-[100px] md:pb-0"
+        className="w-full h-[90vh] bg-contain bg-center flex items-center justify-center pb-[100px] md:pb-0"
         style={{ backgroundImage: `url(${homeBanner})` }}
       >
         <div className="lg:max-w-[999px]">
