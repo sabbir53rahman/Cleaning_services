@@ -24,6 +24,7 @@ import worker3 from "../../assets/worker3.png";
 import Button from "../../components/Button/Button";
 import { IoIosPlay } from "react-icons/io";
 import { FaArrowRight, FaStar } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const services = [
   {
@@ -153,7 +154,11 @@ function Home() {
                 </div>
               </div>
             </div>
-            <img src={worker3} alt="" className="self-end w-full ml-[-30px]" />
+            <img
+              src={worker3}
+              alt=""
+              className="self-end w-[55%] md:w-full ml-[-30px]"
+            />
           </div>
 
           <div className="bg-[#FFE9CA] border border-[#939393] px-[20px] h-max pt-[20px] flex flex-row md:max-w-[200px] rounded-[25px]">
@@ -445,7 +450,9 @@ function Home() {
               <h3 className="text-[32px] leading-[35px] font-secondary font-semibold text-center lg:text-left">
                 N100,000
               </h3>
-              <Button label="Book Now" />
+              <Link to={"/contacts"}>
+                <Button label="Book Now" />
+              </Link>
             </div>
           </div>
         </div>
@@ -493,7 +500,9 @@ function Home() {
               <h3 className="text-[32px] leading-[35px] font-secondary font-semibold text-center lg:text-left">
                 N30,000
               </h3>
-              <Button label="Book Now" />
+              <Link to={"/contacts"}>
+                <Button label="Book Now" />
+              </Link>
             </div>
           </div>
           <div className="lg:w-1/2 w-full text-center lg:text-left">

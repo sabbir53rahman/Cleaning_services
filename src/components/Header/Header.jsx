@@ -45,9 +45,11 @@ function Header() {
         <div className="hidden xl:flex items-center gap-6">
           <div className="flex items-center gap-2 text-gray-800">
             <div className="p-[15px] bg-[#48BEF7] rounded-[50px]">
-              <FiPhoneCall className="text-xl text-black" />
+              <a href="tel:+2349119178436">
+                <FiPhoneCall className="text-xl text-black" />
+              </a>
             </div>
-            <span className="font-medium text-[16px]">(+234) 125 487 471</span>
+            <span className="font-medium text-[16px]">+2349119178436</span>
           </div>
           <div className="flex items-center justify-center gap-[10px]">
             <div className="w-[48px] h-[48px] rounded-full bg-[#E7F7FD] flex items-center justify-center">
