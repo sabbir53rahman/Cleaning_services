@@ -7,12 +7,12 @@ function HomeBanner() {
   return (
     <>
       <div
-        className="w-full h-[90vh] bg-cover bg-no-repeat bg-center flex items-center justify-center"
+        className="w-full h-[90vh] bg-contain bg-center flex items-center justify-center pb-[100px] md:pb-0"
         style={{ backgroundImage: `url(${homeBanner})` }}
       >
         <div className="lg:max-w-[999px]">
           <div>
-            <h1 className="main_heading">
+            <h1 className="main_heading pt-[150px]  md:pt-0">
               Your Space
               <br /> We Clean
             </h1>
@@ -69,9 +69,11 @@ function HomeBanner() {
               </div>
             </div>
 
-            <div className="p-[20px] bg-[#0073AC] text-white inline-flex items-center justify-center rounded-[14px]">
-              <FiPhone className="text-[18px]" />
-            </div>
+            <a href="tel:+23409119178436">
+              <div className="p-[20px] bg-[#0073AC] text-white inline-flex items-center justify-center rounded-[14px] cursor-pointer">
+                <FiPhone className="text-[18px]" />
+              </div>
+            </a>
           </div>
         </div>
       </div>
