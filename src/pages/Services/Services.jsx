@@ -106,19 +106,19 @@ function Services() {
           </p>
         </div>
         <div className="lg:max-w-[475px] border border-[#939393] rounded-[20px] flex ">
-          <div className=" p-[40px] border-r border-[#939393]">
-            <h3 className="text-[60px] leading-[72px] pb-[15px] font-bold font-secondary">
+          <div className="p-[20px] md:p-[40px] border-r border-[#939393]">
+            <h3 className="md:text-[60px] text-[50px] leading-[72px] pb-[15px] font-bold font-secondary">
               120+
             </h3>
-            <p className="font-medium text-[24px] paragraph leading-[33px]">
+            <p className="font-medium text-[20px] md:text-[24px] paragraph leading-[33px]">
               Customers Across Abuja
             </p>
           </div>
-          <div className="p-[40px]">
-            <h3 className="text-[60px] leading-[72px] pb-[15px] font-bold font-secondary">
+          <div className="md:p-[40px] p-[20px]">
+            <h3 className="md:text-[60px] text-[50px] leading-[72px] pb-[15px] font-bold font-secondary">
               100+
             </h3>
-            <p className="font-medium text-[24px] paragraph leading-[33px]">
+            <p className="font-medium text-[20px] md:text-[24px] paragraph leading-[33px]">
               Office Cleaning Projects
             </p>
           </div>
