@@ -55,9 +55,15 @@ function Header() {
             <div className="w-[48px] h-[48px] rounded-full bg-[#E7F7FD] flex items-center justify-center">
               <FaFacebookF className="text-[#4267B2] text-[18px]" />
             </div>
-            <div className="w-[48px] h-[48px] rounded-full bg-[#F8F0FB] flex items-center justify-center">
-              <FaInstagram className="text-[#BB6BD9] text-[18px]" />
-            </div>
+            <a
+              href="https://www.instagram.com/cleanmyspaceltd/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="w-[48px] h-[48px] rounded-full bg-[#F8F0FB] flex items-center justify-center">
+                <FaInstagram className="text-[#BB6BD9] text-[18px]" />
+              </div>
+            </a>
           </div>
         </div>
 
@@ -70,51 +76,53 @@ function Header() {
       </div>
 
       {/* Mobile Menu */}
-      {isMenuOpen && (
-        <div className="absolute top-full left-0 right-0 bg-white border border-[#939393] shadow-md mt-2 p-4 xl:hidden flex flex-col gap-4 items-center">
-          <nav className="flex flex-col gap-4 items-center">
-            {[
-              { to: "/", label: "Home" },
-              { to: "/about", label: "About Us" },
-              { to: "/services", label: "Services" },
-              { to: "/projects", label: "Projects" },
-              { to: "/contacts", label: "Contacts" },
-            ].map((link) => (
-              <NavLink
-                key={link.to}
-                to={link.to}
-                className={({ isActive }) =>
-                  `text-[16px] leading-[24px] ${
-                    isActive ? "text-[#1F1F1F] font-bold" : "text-[#929292]"
-                  } hover:text-[#1F1F1F]`
-                }
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {link.label}
-              </NavLink>
-            ))}
-          </nav>
+      <div
+        className={`absolute top-full left-0 right-0 bg-white shadow-md  p-4 xl:hidden flex flex-col gap-4 items-center transition-transform duration-500 ease-in-out ${
+          isMenuOpen
+            ? "transform translate-y-0 opacity-100"
+            : "transform -translate-y-full opacity-0 pointer-events-none"
+        }`}
+      >
+        <nav className="flex flex-col gap-4 items-center">
+          {[
+            { to: "/", label: "Home" },
+            { to: "/about", label: "About Us" },
+            { to: "/services", label: "Services" },
+            { to: "/projects", label: "Projects" },
+            { to: "/contacts", label: "Contacts" },
+          ].map((link) => (
+            <NavLink
+              key={link.to}
+              to={link.to}
+              className={({ isActive }) =>
+                `text-[16px] leading-[24px] ${
+                  isActive ? "text-[#1F1F1F] font-bold" : "text-[#929292]"
+                } hover:text-[#1F1F1F]`
+              }
+              onClick={() => setIsMenuOpen(false)}
+            >
+              {link.label}
+            </NavLink>
+          ))}
+        </nav>
 
-          <div className="flex flex-col items-center gap-4">
-            <div className="flex items-center gap-2 text-gray-800">
-              <div className="p-[15px] bg-[#48BEF7] rounded-[50px]">
-                <FiPhoneCall className="text-xl text-black" />
-              </div>
-              <span className="font-medium text-[16px]">
-                (+234) 125 487 471
-              </span>
+        <div className="flex flex-col items-center gap-4">
+          <div className="flex items-center gap-2 text-gray-800">
+            <div className="p-[15px] bg-[#48BEF7] rounded-[50px]">
+              <FiPhoneCall className="text-xl text-black" />
             </div>
-            <div className="flex gap-4">
-              <div className="w-[48px] h-[48px] rounded-full bg-[#E7F7FD] flex items-center justify-center">
-                <FaFacebookF className="text-[#4267B2] text-[18px]" />
-              </div>
-              <div className="w-[48px] h-[48px] rounded-full bg-[#F8F0FB] flex items-center justify-center">
-                <FaInstagram className="text-[#BB6BD9] text-[18px]" />
-              </div>
+            <span className="font-medium text-[16px]">(+234) 125 487 471</span>
+          </div>
+          <div className="flex gap-4">
+            <div className="w-[48px] h-[48px] rounded-full bg-[#E7F7FD] flex items-center justify-center">
+              <FaFacebookF className="text-[#4267B2] text-[18px]" />
+            </div>
+            <div className="w-[48px] h-[48px] rounded-full bg-[#F8F0FB] flex items-center justify-center">
+              <FaInstagram className="text-[#BB6BD9] text-[18px]" />
             </div>
           </div>
         </div>
-      )}
+      </div>
     </header>
   );
 }

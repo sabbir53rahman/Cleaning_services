@@ -131,7 +131,7 @@ function Home() {
             <img
               src={worker2}
               alt=""
-              className="self-end lg:w-[200px] w-full lg:h-[250px]"
+              className="self-end md:w-[200px] w-[50%] md:h-[250px]"
             />
           </div>
         </div>
