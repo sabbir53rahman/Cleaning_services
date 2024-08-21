@@ -104,7 +104,7 @@ function Home() {
 
       {/* Plan & Explore section */}
 
-      <div className="my_container flex justify-center flex-col gap-[80px] lg:flex-row pb-[80px] md:pb-[100px] lg:pb-[160px]">
+      <div className="my_container flex justify-center flex-col gap-[80px] lg:flex-row pb-[80px] pt-[110px] md:pt-0 md:pb-[100px] lg:pb-[160px]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px] items-end">
           <div className="bg-[#DBECFF] border border-[#939393] h-max px-[20px] pt-[20px] rounded-[25px] md:max-w-[255px] flex justify-end flex-col">
             <div className="flex justify-end items-center">
