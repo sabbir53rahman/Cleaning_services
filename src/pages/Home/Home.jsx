@@ -330,7 +330,7 @@ function Home() {
             </p>
           </div>
 
-          <h2 className="heading_2 text-center pb-[50px]">
+          <h2 className="heading_2  text-center pb-[50px]">
             Explore Current Service
           </h2>
           <p className="text text-center pb-[50px]">

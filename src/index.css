@@ -16,10 +16,10 @@
     @apply  text-[16px] md:text-[18px] leading-[30px] text-[#464646]
   }
   .heading_2{
-    @apply 2xl:text-[64px] xl:text-[58px] text-[48px] font-secondary font-bold 2xl:leading-[76px] xl:leading-[68px] leading-[58px]
+    @apply 2xl:text-[64px] xl:text-[58px] text-[38px] font-secondary font-bold 2xl:leading-[76px] xl:leading-[68px] leading-[58px]
   }
   .heading_3{
-    @apply text-[44px] font-secondary font-bold leading-[52px]
+    @apply md:text-[44px] text-[30px] font-secondary font-bold leading-[42px] md:leading-[52px]
   }
   .paragraph{
     @apply text-[#464646]
